@@ -145,7 +145,7 @@ AppModule = __decorate([
                     ]
                 },
                 { path: '', redirectTo: 'loggin', pathMatch: 'full' },
-            ]),
+            ], { useHash: true }),
             __WEBPACK_IMPORTED_MODULE_12__angular_common_http__["b" /* HttpClientModule */],
             __WEBPACK_IMPORTED_MODULE_3_angularfire2__["a" /* AngularFireModule */].initializeApp(__WEBPACK_IMPORTED_MODULE_2__environments_environment__["a" /* environment */].firebase),
             __WEBPACK_IMPORTED_MODULE_4_angularfire2_firestore__["b" /* AngularFirestoreModule */],
